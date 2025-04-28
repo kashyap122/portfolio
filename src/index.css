@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'spiderman';
+    src: url('../public/fonts/spiderman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'gameofthrones';
+    src: url('../public/fonts/gameofthrones.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.spiderman{
+  font-family: spiderman;
+}
+.gameofthrones{
+  font-family: gameofthrones;
+}
