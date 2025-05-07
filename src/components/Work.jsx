@@ -4,9 +4,9 @@ import ProjectCard from './ProjectCard'
 
 const Work = () => {
   return (
-    <div className="min-h-screen bg-[#f8f0ee] flex flex-col items-center py-12 px-6">
+    <div className="min-h-screen bg-[#1d1d1d] flex flex-col items-center py-12 px-6">
       
-      <h2 className="gameofthrones text-4xl font-bold text-[#5a0e0e] mb-12 text-center">WORK</h2>
+      <h2 className="ppf text-4xl font-bold text-white mb-12 text-center">WORK</h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
         <ProjectCard

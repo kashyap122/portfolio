@@ -1,21 +1,22 @@
 @import "tailwindcss";
 
 @font-face {
-    font-family: 'spiderman';
-    src: url('../fonts/spiderman.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  }
-@font-face {
-    font-family: 'gameofthrones';
-    src: url('../fonts/gameofthrones.ttf') format('truetype');
+    font-family: 'degular';
+    src: url('../fonts/degular.otf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
 
-.spiderman{
-  font-family: spiderman;
+@font-face {
+    font-family: 'PPfragement';
+    src: url('../fonts/PPfragement.woff') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.degular{
+  font-family: degular;
 }
-.gameofthrones{
-  font-family: gameofthrones;
+.ppf{
+  font-family: PPfragement;
 }

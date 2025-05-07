@@ -7,16 +7,19 @@ import Connect from "./components/Connect"
 import Services from './components/Services'
 import Testimonials from './components/Testimonials'
 import SkillsMarquee from './components/SkillsMarquee'
+import ProjectsCarousel from './components/ProjectsCarousel'
 
 const App = () => {
+  
+
   return (
-      <div className='bg-[#f8f0ee] h-screen w-screen scroll-smooth overflow-auto text-[#5a0e0e]'>
+      <div className='bg-[#1d1d1d] h-screen w-screen scroll-smooth overflow-auto text-white'>
       <Header />
-      <SkillsMarquee />
       <AboutMe />
+      <SkillsMarquee />
       <Work />
-      <Services />
-      <Testimonials />
+      {/* <Services />
+      <Testimonials /> */}
       <Connect />
     </div>
   )

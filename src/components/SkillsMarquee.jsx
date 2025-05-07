@@ -20,12 +20,13 @@ const skills = [
   { name: "Git", image: git },
   { name: "php", image: php },
   { name: "Bootstrap", image: bootstrap },
-  // add more here easily
 ];
 
 const SkillsMarquee = () => {
   return (
-    <div className="w-full bg-[#5a0e0e] py-4 overflow-hidden">
+    <div className="w-full py-4 overflow-hidden">
+      <div className="ppf text-4xl font-bold text-white mb-4 text-center">Tech Stack</div>
+      <div className="text-xl text-white mb-8 text-center">Technologies I use to build modern web applications</div>
       <Marquee speed={50} gradient={false} pauseOnHover className="flex gap-8">
         {skills.map((skill, index) => (
           <div key={index} className="flex flex-col items-center mx-6 min-w-[120px]">
