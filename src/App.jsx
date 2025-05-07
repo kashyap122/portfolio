@@ -4,13 +4,18 @@ import Header from "./components/Header"
 import AboutMe from "./components/AboutMe"
 import Work from "./components/Work"
 import Connect from "./components/Connect"
-import Services from './components/Services'
-import Testimonials from './components/Testimonials'
+// import Services from './components/Services'
+// import Testimonials from './components/Testimonials'
 import SkillsMarquee from './components/SkillsMarquee'
-import ProjectsCarousel from './components/ProjectsCarousel'
+// import ProjectsCarousel from './components/ProjectsCarousel'
+// import Footer from './components/Footer'
 
 const App = () => {
-  
+  // Future Enhancements 
+  // Dark/light mode
+  // cards carousel
+  // Services
+  // Testimonials
 
   return (
       <div className='bg-[#1d1d1d] h-screen w-screen scroll-smooth overflow-auto text-white'>

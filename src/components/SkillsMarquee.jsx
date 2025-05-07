@@ -25,7 +25,7 @@ const skills = [
 const SkillsMarquee = () => {
   return (
     <div className="w-full py-4 overflow-hidden">
-      <div className="ppf text-4xl font-bold text-white mb-4 text-center">Tech Stack</div>
+      <div className="ppf text-4xl font-bold text-white mb-4 text-center">TECH STACK</div>
       <div className="text-xl text-white mb-8 text-center">Technologies I use to build modern web applications</div>
       <Marquee speed={50} gradient={false} pauseOnHover className="flex gap-8">
         {skills.map((skill, index) => (

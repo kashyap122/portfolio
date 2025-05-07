@@ -3,7 +3,7 @@ import kashyap from "../assets/kashyap.JPG"
 
 const AboutMe = () => {
   return (
-    <div className="relative flex flex-col-reverse lg:flex-row items-center justify-between min-h-screen pr-6 pl-6 pt-3 bg-[#1d1d1d]">
+    <div id='about-me' className="relative flex flex-col-reverse lg:flex-row items-center justify-between min-h-screen pr-6 pl-6 pt-3 bg-[#1d1d1d]">
       
       <div className="hidden lg:flex flex-col items-center absolute top-10 left-[18%] animate-bounce z-10">
         <div className="text-white text-xl font-semibold mb-2">I am a cinephile too!</div>

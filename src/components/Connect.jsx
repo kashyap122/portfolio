@@ -50,12 +50,11 @@ const Connect = () => {
         alert('Error sending message!');
       }
     }
-  };
-  
+  };  
 
   return (
-    <div className="flex flex-col items-center px-4 bg-[#1d1d1d]">
-      <h2 className="ppf text-4xl font-bold text-center py-3">Connect</h2>
+    <div id='connect' className="flex flex-col items-center px-4 bg-[#1d1d1d]">
+      <h2 className="ppf text-4xl font-bold text-center py-3">CONNECT</h2>
       <p className="text-xl mb-8 text-center max-w-lg">
         Have a project in mind? I'd love to hear from you! Reach out to me, and let's turn your ideas into reality.
       </p>

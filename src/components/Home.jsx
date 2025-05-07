@@ -12,7 +12,7 @@ const Home = () => {
         <div className="ppf text-4xl sm:text-6xl minecraftory tracking-widest">
           KASHYAP CHAUHAN
         </div>
-        <button className="inline-block border-2 border-white text-white hover:bg-white hover:text-black transition-all duration-300 font-bold px-6 py-3 rounded-lg cursor-pointer">
+        <button onClick={() => window.open('../../public/Resume.pdf', '_blank')} className="inline-block border-2 border-white text-white hover:bg-white hover:text-black transition-all duration-300 font-bold px-6 py-3 rounded-lg cursor-pointer">
           View Resume
         </button>
       </div>
